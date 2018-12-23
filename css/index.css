@@ -1,0 +1,65 @@
+body{
+	/* background-image: url('../img/pexels.jpg'); */
+	/* background-attachment:fixed; */
+	/* background-position:center center; */
+	font-family: 'Arial';
+}
+
+/* ------- NavBar Style Start ------- */
+.navbar-nav-style {
+	margin-left: 34vw;
+}
+
+.nav-item-style {
+	margin-right: 20px;
+}
+/* ------- NavBar Style End ------- */
+
+.img1{
+	width: 250px;
+}
+
+.img2{
+	width: 300px;}
+
+h2{
+	color: #f7c60a;
+}
+h3{
+	font-size: 55px;
+	color: white;
+}
+
+.port{
+	text-align: center;
+	height: 400px;
+	margin: 0 auto;
+	background-attachment:fixed;
+}
+
+.img-portfolio {
+	margin-top:20px;
+	width: 120px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+section {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.contact{
+	background-color: #f7c60a;
+	margin-top: 2100px;
+}
+
+#contact{
+	display: flex;
+	justify-content: center
+}
+
+#reseaux{
+	display: flex;
+	justify-content: center;
+}

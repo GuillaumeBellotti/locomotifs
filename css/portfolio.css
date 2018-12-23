@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../img/pexels.jpg');
+    background-attachment:fixed; 
+	background-position:center center; 
+}
+
+/* ------- NavBar Style Start ------- */
+.navbar-nav-style {
+	margin-left: 34vw;
+}
+
+.nav-item-style {
+	margin-right: 20px;
+}
+/* ------- NavBar Style End ------- */
+
+.img1{
+	width: 250px;
+}
