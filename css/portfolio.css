@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url('../img/pexels.jpg');
+ 
     background-attachment:fixed; 
 	background-position:center center; 
 }
@@ -21,4 +21,116 @@ body{
 
 .img1{
 	width: 250px;
+}
+
+.img2{
+	width: 300px;}
+
+h2{
+	color: #f7c60a;
+}
+h3{
+	display: flex;
+	justify-content: center;
+	font-size: 55px;
+	color: white;
+}
+
+.port{
+	text-align: center;
+	height: 400px;
+	margin: 0 auto;
+	background-attachment:fixed;
+}
+
+#portfolio{
+	margin-top: 30px;
+}
+
+.pot{
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-right: 1000px;
+}
+
+.btn.btn-lg {
+    padding: 10px 40px;
+}
+
+.btn-style {
+    color: white;
+    font-weight: bold;
+}
+
+.img-portfolio {
+	margin-top:20px;
+	width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.mouse-hover{
+	cursor: pointer;
+}
+
+section {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+h4{
+	color: white;
+	font-size: 50px;
+}
+
+#contact{
+	background: #f7c60a;
+	margin-top: 2300px;
+}
+
+
+#lieu img{
+    color: white;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;	
+}
+
+#phone img{
+	color: white;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+
+#mail img{
+	color: white;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+p{
+	margin-left: 0px;
+}
+
+iframe{
+	margin-left: 50px;
+	width: 500px;
+	height: 300px;
+}
+
+/* #carte{
+	width: 500px;
+} */
+
+#reseaux{
+    display: flex;
+    text-align: center;
+    width: 30px;    
 }
