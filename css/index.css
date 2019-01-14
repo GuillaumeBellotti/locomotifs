@@ -44,7 +44,7 @@ h3{
 	/* background-color: rgba(0, 0, 0, 0.4); */
 	/* background-attachment: fixed; 
 	background-position:center center;  */
-	height: 900px;
+	height: 850px;
 	text-align: center;
 }
 
@@ -74,7 +74,7 @@ h6{
 }
 
 .texte{
-	margin-top: 100px;
+	margin-top: 140px;
 	color: white;
 	font-size: 18px;
 }
@@ -113,27 +113,30 @@ section{
 
 .btn.btn-lg {
 	padding: 10px 40px;
-	text-decoration: none
+	text-decoration: none;
+
 }
 
-h2{
-	color: #f7c60a;
-	font-size: 30px;
+.ri{
+	margin-top: 100px;
+	font-size: 40px;
+
 }
 
 .img3-portfolio {
 	margin-top: 20px;
-	width: 200px;
-	height: 150px;
-	display: block;
+	width: 243px;
+	height: 270px;
+	/* display: block;
     margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; */
 }
 
 .port{
+	margin-top: 200px;
 	text-align: center;
 	height: 400px;
-	margin: 0 auto;
+
 }
 
 .btn-style {
@@ -222,19 +225,19 @@ iframe{
 	margin-top: 30px;
 	margin-right: 100px;
 	margin-bottom: 20px;
-	width: 500px;
-	height: 300px;
+	width: 450px;
+	height: 250px;
 }
 
 .efficom{
-	margin-left: 100px;
+	margin-left: 50px;
 	margin-top: 80px;
 	height: auto;
 	width: 40%;
 }
 
 #reseaux{
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 h7{
