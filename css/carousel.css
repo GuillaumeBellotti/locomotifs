@@ -99,27 +99,30 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5,
+.fade-carousel .slides .slide-6 {
   height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url("../img/2017_1122_Studio_Locomotifs 002.jpg"); 
+  background-image: url("../img/2018_1121_Efficom_Locomotifs_097.jpg") 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url('../img/2017_1122_Studio_Locomotifs 053.jpg');
+  background-image: url("../img/2018_1121_Efficom_Locomotifs_101.jpg");
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url("../img/2017_1122_Studio_Locomotifs 043.jpg");
+  background-image: url("../img/2018_1121_Efficom_Locomotifs_049.jpg");
 }
 .fade-carousel .slides .slide-4 {
-    background-image: url("../img/2017_1122_Studio_Locomotifs 040.jpg");
-  }
-  .fade-carousel .slides .slide-5 {
-    background-image: url("../img/2017_1122_Studio_Locomotifs 022.jpg");
-  }
+    background-image: url("../img/29594913_10215428032994755_5414334588276284560_n.jpg");
+}
+.fade-carousel .slides .slide-5 {
+    background-image: url("../img/29594773_10215428030074682_3147414597620105382_n.jpg");
+}
 
 /********************************/
 /*          Media Queries       */

@@ -27,12 +27,19 @@ body{
 
 /* ------- Edito Style Start ------- */
 .edito{
-	/* background-image: url(../img/2017_1122_Studio_Locomotifs\ 126.jpg); */
-	background-color: rgba(0, 0, 0, 0.4);
+	background-image: url(../img/interior_opacity.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* background-color: rgba(0, 0, 0, 0.4); */
 	/* background-attachment: fixed; 
 	background-position:center center;  */
-	height: 840px;
+	height: 850px;
 	text-align: center;
+}
+
+.btn-style {
+    color: white;
+    font-weight: bold;
 }
 
 h5{
@@ -60,16 +67,9 @@ h6{
 	margin-right: auto;
 }
 
-.texte{
-	margin-top: 100px;
-	color: white;
-	font-size: 17px;
-}
-
-.texte1{
-	margin-top: 5px;
-	color: white;
-	font-size: 17px;
+.text-edito{
+	margin-top: 140px;
+	font-size: 18px;
 }
 /* ------- Edito Style End ------- */
 
