@@ -7,8 +7,9 @@
   <title>Exposition</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="front/GOTHAM/Gotham-Book.ttf">
   <link rel="stylesheet" type="text/css" href="./css/exposition.css">
-  <link rel="stylesheet" type="text/css" href="./css/carousel.css">
+  <!-- <link rel="stylesheet" type="text/css" href="./css/carousel.css"> -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous">
@@ -21,23 +22,26 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto navbar-nav-style">
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="edito.html">Edito</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="porfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="exposition.html">Exposition</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="dossier.html">Dossier de presse</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav mr-auto navbar-nav-style">
+            <li class="nav-item nav-item-style">
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown"> 
+                    <button type="button" class="btn btn-light"><a class="nav-link" href="edito.html">Edito</a></button>         
+                    <div class="btn-group" role="group">
+                      <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                          <a class="dropdown-item" href="porfolio.html">2019</a>
+                        <a class="dropdown-item" href="porfolio.html">2018</a>
+                        <a class="dropdown-item" href="porfolio.html">2017</a>
+                        <a class="dropdown-item" href="porfolio.html">2016</a>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-light"><a class="nav-link" href="exposition.html">Exposition</a></button>
+                    <button type="button" class="btn btn-light"><a class="nav-link" href="dossier.html">Dossier de presse</a></button>
+                    <button type="button" class="btn btn-light"><a class="nav-link" href="#contact">Contact</a></button>
+                  </div>
+            </li>
     </div>
   </nav>
 
@@ -51,37 +55,56 @@
     crossorigin="anonymous"></script>
 
   <section class="edito" id="edito">
-    <div>
-      <h2 class="text-warning">EXPOSITION 2019</h2>
-      <p class="texte1">À l'occasion de la cinquième édition, l'exposition Locomotifs oivre les portes du Palais Rameau Lille <strong>du 2O au 24 mars 2019.</strong></br>
-      L'événement invite ses visiteurs à exploser un élan créatif gravitant autour des différents domaines : graphisme, espace, art et web.</br>
-      Locomotifs met à l'honneur l'effervescence créartive et dévoile une sélection de projets exceptionnels retraçant une anée de création des étudiants de la DESIGN SCHOOL EFFICOM.</br>
-      L'édition 2018 rencontra un fort succé le soir de son vernissage ainsi que lors des 3 jours d'exposition,accueillant plus de 1000 visiteurs.
-      Cette nouvelle exposition permettra une fois encore de partager, échanger, voyager et encourager une jeune création passionnée.</p>
-    </div>
     <div class="dess">
         <div class="container">
           <div class="row">
             <div class="col">
-                <h5 class="text-warning">EXPOSITION 2017</h5>
-
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/2017_1122_Studio_Locomotifs 037.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src=./img/29594773_10215428030074682_3147414597620105382_n.jpg class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img1/2018_1121_Efficom_Locomotifs_097.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
             </div>
             <div class="col">
-                <h5 class="text-warning">EXPOSITION 2018</h5>
+                <h5 class="text-warning">EXPOSITION 2019</h5>
                 </h5>
-                <em><p class="texte" >La Quatrième édition de l’exposition LOCOMOTIFS, présentée le 30, 31 mars et 1er avril 2018 au Palais Rameau. 
-                    Grâce à son exigence lors de la sélection des oeuvres présentées et à l’énergie dépensée par les étudiants, LOCOMOTIFS a battu son record d’affluence en 2017. 
-                    En effet, 650 visiteurs on découvert l’exposition durant les trois jours, dont 350 le soir du vernissage. Fort de cette reconnaissance, 
-                    LOCOMOTIFS se démarque dès à présent comme un rendez-vous incontournable pour tous les curieux de découvrir la jeune création en graphisme, art, web et espace.</p></em>
+                <p class="texte1">À l'occasion de la cinquième édition, l'exposition Locomotifs oivre les portes du Palais Rameau Lille <strong>du 2O au 24 mars 2019.</strong></br>
+                  L'événement invite ses visiteurs à exploser un élan créatif gravitant autour des différents domaines : graphisme, espace, art et web.</br>
+                  Locomotifs met à l'honneur l'effervescence créartive et dévoile une sélection de projets exceptionnels retraçant une anée de création des étudiants de la DESIGN SCHOOL EFFICOM.</br>
+                  L'édition 2018 rencontra un fort succé le soir de son vernissage ainsi que lors des 3 jours d'exposition,accueillant plus de 1000 visiteurs.
+                  Cette nouvelle exposition permettra une fois encore de partager, échanger, voyager et encourager une jeune création passionnée.</p>
+                  <div>
+                      <button type="button" class="btn btn-warning btn-lg btn-style pot"><a href="2017.html">2017</a></button> 
+                      <button type="button" class="btn btn-warning btn-lg btn-style pot"><a href="2018.html">2018</a></button> 
+                      <button type="button" class="btn btn-warning btn-lg btn-style pot"><a href="2019.html">2019</a></button> 
+                  </div>
             </div>
           </div>
       </div>
     </div>
   </section>
 
-  <section id="contact" >
-      <h4>CONTACT</h4>
-      <div id="adresse">
+</body>
+
+<footer id="contact">
+    <h4>CONTACT</h4>
+      <div>
           <div class="container">
             <div class="row">
               <div class="col-sm">
@@ -112,24 +135,15 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.753842451638!2d3.0584835156953343!3d50.63168948217015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d585a119a90d%3A0x22993bdf8252939b!2sR%C3%A9publique+-+Beaux+Arts!5e0!3m2!1sfr!2sfr!4v1542729794598"
                 frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-
             <div class="col">
-              <div class="efficom">
-                <a href="http://www.efficom-lille.fr/"><img src="./img/efficom-v2.png" alt="" class="img-thumbnail">
-              </div>
+                <div >
+                  <a href="http://www.efficom-lille.fr/"><img class="efficom" src="./img/efficom-v2.png" alt="" >
+                </div>
             </div>
           </div>
       </div>
   
-      <div id="reseaux">
-        <div class="text-center">
-          <a href="https://www.facebook.com/locomotifs/"> <img class="img-responsive" src="./img/facebook.svg"></a>
-          <a href="https://twitter.com/LocomotifsLille?lang=fr"><img class="img-responsive" src="./img/twitter.svg"></a>
-          <a href="https://www.instagram.com/locomotifs/?hl=fr"><img class="img-responsive" src="./img/instagram.svg"></a>
-        </div>
-        <!-- Extra large modal -->
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Mention Légale</button>
-
+      <!-- Extra large modal -->
       <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
           <div class="modal-content">
@@ -168,8 +182,18 @@
           </div>
         </div>
       </div>
-      </div>
-    </section>
-
-</body>
+  
+      <div id="reseaux">
+          <div class="text-center">
+            <a href="https://www.facebook.com/locomotifs/">       <img class="img-responsive" src="./img/facebook.svg"></a>
+            <a href="https://twitter.com/LocomotifsLille?lang=fr"><img class="img-responsive" src="./img/twitter.svg"></a>
+            <a href="https://www.instagram.com/locomotifs/?hl=fr"><img class="img-responsive" src="./img/instagram.svg"></a>
+            <br>
+            <br>
+            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Mention Légale</button> -->
+              <span>© Efficom -</span>
+              <a>Mention Légale</a>
+          </div>
+        </div>
+  </footer>
 </html>

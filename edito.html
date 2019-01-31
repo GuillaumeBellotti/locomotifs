@@ -7,6 +7,7 @@
   <title>Accueil</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="front/GOTHAM/Gotham-Book.ttf">
   <link rel="stylesheet" type="text/css" href="./css/edito.css">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -20,23 +21,26 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto navbar-nav-style">
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="edito.html">Edito</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="porfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="exposition.html">Exposition</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="dossier.html">Dossier de presse</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav mr-auto navbar-nav-style">
+            <li class="nav-item nav-item-style">
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown"> 
+                    <button type="button" class="btn btn-light"><a class="nav-link" href="edito.html">Edito</a></button>         
+                    <div class="btn-group" role="group">
+                      <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                          <a class="dropdown-item" href="porfolio.html">2019</a>
+                        <a class="dropdown-item" href="porfolio.html">2018</a>
+                        <a class="dropdown-item" href="porfolio.html`">2017</a>
+                        <a class="dropdown-item" href="porfolio.html">2016</a>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-light"><a class="nav-link" href="exposition.html">Exposition</a></button>
+                    <button type="button" class="btn btn-light"><a class="nav-link" href="dossier.html">Dossier de presse</a></button>
+                    <button type="button" class="btn btn-light"><a class="nav-link" href="#contact">Contact</a></button>
+                  </div>
+            </li>
     </div>
   </nav>
 
@@ -79,96 +83,100 @@
           Nous sommes heureux de vous faire partager cette production et vous souhaitons de belles découvertes !</p>
   </section>
 
-  <section id="contact" >
-    <h4>CONTACT</h4>
-    <div id="adresse">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <div id="lieu">
-                <img src="./img/lieu.png" alt="">
-                <strong><p>159-161 Boulevard de la Liberté - </br>59000 Lille</p></strong>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div id="phone">
-                <img src="./img/phone.png" alt="">
-                <strong><p>03 20 15 16 77</p></strong>
-              </div>
-            </div>
-            <div class="col-sm">
-              <div id="mail">
-                <img src="./img/mail.png" alt="">
-                <strong><p>locomotifs.efficom@gmail.com</p></strong> 
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-          <div class="col">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.753842451638!2d3.0584835156953343!3d50.63168948217015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d585a119a90d%3A0x22993bdf8252939b!2sR%C3%A9publique+-+Beaux+Arts!5e0!3m2!1sfr!2sfr!4v1542729794598"
-              frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <div class="col">
-              <div class="efficom">
-                <a href="http://www.efficom-lille.fr/"><img src="./img/efficom-v2.png" alt="" class="img-thumbnail">
-              </div>
-          </div>
-        </div>
-    </div>
-
-    <div id="reseaux">
-      <div class="text-center">
-        <a href="https://www.facebook.com/locomotifs/"> <img class="img-responsive" src="./img/facebook.svg"></a>
-        <a href="https://twitter.com/LocomotifsLille?lang=fr"><img class="img-responsive" src="./img/twitter.svg"></a>
-        <a href="https://www.instagram.com/locomotifs/?hl=fr"><img class="img-responsive" src="./img/instagram.svg"></a>
-      </div>
-    </div>
-    <!-- Extra large modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Mention Légale</button>
-
-    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          </p>
-          <h7>Siège social</h7>
-        
-        Adresse :
-        EFFICOM Lille - LOCOMOTIFS
-        159-161 Boulevard de la Liberté
-        59000 Lille
-        03 20 15 16 77
-        Contact : locomotifs.efficom@gmail.com
-        
-        Création du site – Sciences-U Lille
-        
-          <h7>Développement et hébergement du site</h7>
-        
-        Le développement et la mise à jour du site sont assurés par le webmaster d’EFFICOM.
-        Le site est hébergé sur les serveurs de la société OneandOne.
-        Le site EFFICOM correspond aux normes W3C. Il est accessible aux personnes handicapées.
-          
-          <h7>Informatique et libertés</h7>
-        
-        En application de l’article 16 de la loi française du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, les coordonnées personnelles transmises à EFFICOM par e-mail sont conservées pendant le temps nécessaire à l’instauration d’un contact. Les intéressés peuvent demander la modification ou le retrait de leurs coordonnées. Vous pouvez exercer ce droit en envoyant un courriel au webmestre. Ces coordonnées ne sont transmises à aucun tiers.
-        
-          <h7>Responsabilités</h7>
-        
-        La responsabilité d’EFFICOM ne saurait être engagée au titre d’un site tiers auquel le visiteur de www.efficom-lille.fr accéderait via le présent site grâce à un lien hypertexte.
-        Les contenus des sites tiers engagent la seule responsabilité de leurs éditeurs respectifs. L’existence d’un lien entre le site d’EFFICOM et un site tiers ne signifie en aucun cas qu’EFFICOM cautionne le contenu de ce site et a fortiori l’usage qui pourrait en être fait. EFFICOM ne pourrait en particulier être tenu pour responsable d’une éventuelle attaque de virus ou autre parasite informatique transitant par ces sites tiers.
-        En aucun cas EFFICOM ne sera tenu pour responsable des dommages directs, indirects ou spéciaux résultant de l’usage du présent site www.efficom-lille.fr et/ou de l’interprétation de ses contenus. Notamment, EFFICOM ne pourra être tenu pour responsable de toute perte d’exploitation, commerciale, financière ou de toute perte de programmes ou de données dans les systèmes informatiques des visiteurs du site www.efficom-lille.fr.
-        
-          <h7>Marques et copyright</h7>
-        
-        Les textes et images diffusés sur le site www.efficom-lile.com sont la propriété exclusive d’EFFICOM et ne peuvent être téléchargés, diffusés, stockés ou enregistrés que pour un usage personnel, professionnel ou privé, conformément aux textes et dispositions régissant les droits d’auteur, les droits de propriété littéraire et artistique et/ou les droits voisins.
-        La modification, la réutilisation, la retransmission des textes et images du présent site sont rigoureusement interdites sauf autorisation préalable d’EFFICOM.
-        </div>
-      </div>
-    </div>
-  </section>
-
 </body>
+
+<footer id="contact">
+    <h4>CONTACT</h4>
+      <div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <div id="lieu">
+                  <img src="./img/lieu.png" alt="">
+                  <strong><p>159-161 Boulevard de la Liberté - </br>59000 Lille</p></strong>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div id="phone">
+                  <img src="./img/phone.png" alt="">
+                  <strong><p>03 20 15 16 77</p></strong>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div id="mail">
+                  <img src="./img/mail.png" alt="">
+                  <strong><p>locomotifs.efficom@gmail.com</p></strong> 
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  
+      <div class="container">
+          <div class="row">
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.753842451638!2d3.0584835156953343!3d50.63168948217015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d585a119a90d%3A0x22993bdf8252939b!2sR%C3%A9publique+-+Beaux+Arts!5e0!3m2!1sfr!2sfr!4v1542729794598"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <div >
+                  <a href="http://www.efficom-lille.fr/"><img class="efficom" src="./img/efficom-v2.png" alt="" >
+                </div>
+            </div>
+          </div>
+      </div>
+  
+      <!-- Extra large modal -->
+      <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            </p>
+            <h7>Siège social</h7>
+          
+          Adresse :
+          EFFICOM Lille - LOCOMOTIFS
+          159-161 Boulevard de la Liberté
+          59000 Lille
+          03 20 15 16 77
+          Contact : locomotifs.efficom@gmail.com
+          
+          Création du site – Sciences-U Lille
+          
+            <h7>Développement et hébergement du site</h7>
+          
+          Le développement et la mise à jour du site sont assurés par le webmaster d’EFFICOM.
+          Le site est hébergé sur les serveurs de la société OneandOne.
+          Le site EFFICOM correspond aux normes W3C. Il est accessible aux personnes handicapées.
+            
+            <h7>Informatique et libertés</h7>
+          
+          En application de l’article 16 de la loi française du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, les coordonnées personnelles transmises à EFFICOM par e-mail sont conservées pendant le temps nécessaire à l’instauration d’un contact. Les intéressés peuvent demander la modification ou le retrait de leurs coordonnées. Vous pouvez exercer ce droit en envoyant un courriel au webmestre. Ces coordonnées ne sont transmises à aucun tiers.
+          
+            <h7>Responsabilités</h7>
+          
+          La responsabilité d’EFFICOM ne saurait être engagée au titre d’un site tiers auquel le visiteur de www.efficom-lille.fr accéderait via le présent site grâce à un lien hypertexte.
+          Les contenus des sites tiers engagent la seule responsabilité de leurs éditeurs respectifs. L’existence d’un lien entre le site d’EFFICOM et un site tiers ne signifie en aucun cas qu’EFFICOM cautionne le contenu de ce site et a fortiori l’usage qui pourrait en être fait. EFFICOM ne pourrait en particulier être tenu pour responsable d’une éventuelle attaque de virus ou autre parasite informatique transitant par ces sites tiers.
+          En aucun cas EFFICOM ne sera tenu pour responsable des dommages directs, indirects ou spéciaux résultant de l’usage du présent site www.efficom-lille.fr et/ou de l’interprétation de ses contenus. Notamment, EFFICOM ne pourra être tenu pour responsable de toute perte d’exploitation, commerciale, financière ou de toute perte de programmes ou de données dans les systèmes informatiques des visiteurs du site www.efficom-lille.fr.
+          
+            <h7>Marques et copyright</h7>
+          
+          Les textes et images diffusés sur le site www.efficom-lile.com sont la propriété exclusive d’EFFICOM et ne peuvent être téléchargés, diffusés, stockés ou enregistrés que pour un usage personnel, professionnel ou privé, conformément aux textes et dispositions régissant les droits d’auteur, les droits de propriété littéraire et artistique et/ou les droits voisins.
+          La modification, la réutilisation, la retransmission des textes et images du présent site sont rigoureusement interdites sauf autorisation préalable d’EFFICOM.
+          </div>
+        </div>
+      </div>
+  
+      <div id="reseaux">
+          <div class="text-center">
+            <a href="https://www.facebook.com/locomotifs/">       <img class="img-responsive" src="./img/facebook.svg"></a>
+            <a href="https://twitter.com/LocomotifsLille?lang=fr"><img class="img-responsive" src="./img/twitter.svg"></a>
+            <a href="https://www.instagram.com/locomotifs/?hl=fr"><img class="img-responsive" src="./img/instagram.svg"></a>
+            <br>
+            <br>
+            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Mention Légale</button> -->
+              <span>© Efficom -</span>
+              <a>Mention Légale</a>
+          </div>
+        </div>
+  </footer>
 </html>

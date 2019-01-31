@@ -7,6 +7,7 @@
   <title>Accueil</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="front/GOTHAM/Gotham-Book.ttf">
   <link rel="stylesheet" type="text/css" href="./css/index.css">
   <link rel="stylesheet" type="text/css" href="./css/carousel.css">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -23,19 +24,23 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto navbar-nav-style">
         <li class="nav-item nav-item-style">
-          <a class="nav-link" href="edito.html">Edito</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="porfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="exposition.html">Exposition</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="dossier.html">Dossier de presse</a>
-        </li>
-        <li class="nav-item nav-item-style">
-          <a class="nav-link" href="#contact">Contact</a>
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown"> 
+                <button type="button" class="btn btn-light"><a class="nav-link" href="edito.html">Edito</a></button>         
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Portfolio
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <a class="dropdown-item" href="porfolio.html">2019</a>
+                    <a class="dropdown-item" href="porfolio.html">2018</a>
+                    <a class="dropdown-item" href="porfolio.html">2017</a>
+                    <a class="dropdown-item" href="porfolio.html">2016</a>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-light"><a class="nav-link" href="exposition.html">Exposition</a></button>
+                <button type="button" class="btn btn-light"><a class="nav-link" href="dossier.html">Dossier de presse</a></button>
+                <button type="button" class="btn btn-light"><a class="nav-link" href="#contact">Contact</a></button>
+              </div>
         </li>
       </ul>
     </div>
@@ -44,7 +49,7 @@
   <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
     <div class="overlay"></div>
 
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators" id="edito">
       <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
       <li data-target="#bs-carousel" data-slide-to="1"></li>
       <li data-target="#bs-carousel" data-slide-to="2"></li>
@@ -126,7 +131,7 @@
     crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 
-  <section class="edito" id="edito">
+  <section class="edito" >
       <h5 class="text-warning">Locomotifs présente une sélection de productions issues du pôle Design d'EFFICOM Lille</br>
         Ce pôle est constitué de 3 spécialisations :
       </h5>

@@ -1,6 +1,7 @@
 *{
 	margin: 0%;
 	padding: 0%;
+	font-family: 'Gotham-Book';
 }
 
 body{
@@ -27,7 +28,7 @@ body{
 
 /* ------- Edito Style Start ------- */
 .edito{
-	background-image: url(../img/interior_opacity.png);
+	/* background-image: url(../img/interior_opacity.png); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	/* background-color: rgba(0, 0, 0, 0.4); */
