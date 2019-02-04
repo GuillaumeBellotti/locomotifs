@@ -33,7 +33,7 @@ body{
 	background-color: rgba(0, 0, 0, 0.4);
 	/* background-attachment: fixed; 
 	background-position:center center;  */
-	height: 840px;
+	height: 790px;
 	text-align: center;
 }
 
@@ -45,7 +45,7 @@ h5{
 }
 
 .dess{
-	margin-top:150px;
+	margin-top: 80px;
 }
 
 .img-portfolio {
@@ -85,7 +85,7 @@ section{
 	height: 100%;
 }
 h4{
-	color: white;
+	color: #f7c60a;
 	font-size: 60px;
 	text-align: center;
 }

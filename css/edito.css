@@ -34,7 +34,7 @@ body{
 	/* background-color: rgba(0, 0, 0, 0.4); */
 	/* background-attachment: fixed; 
 	background-position:center center;  */
-	height: 850px;
+	height: 790px;
 	text-align: center;
 }
 
@@ -69,7 +69,9 @@ h6{
 }
 
 .text-edito{
-	margin-top: 140px;
+	margin-top: 115px;
+	margin-left: 60px;
+	margin-right: 60px;
 	font-size: 18px;
 }
 /* ------- Edito Style End ------- */
@@ -85,7 +87,7 @@ section{
 	height: 100%;
 }
 h4{
-	color: white;
+	color: #f7c60a;
 	font-size: 60px;
 	text-align: center;
 }
