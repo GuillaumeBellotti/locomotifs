@@ -8,7 +8,7 @@ body{
 	/* background-image: url('../img/pexels.jpg'); */
 	/* background-attachment:fixed; 
 	background-position:center center; */
-	font-family: 'Fira Sans', sans-serif;
+	
 }
 
 /* ------- NavBar Style Start ------- */
@@ -58,6 +58,7 @@ h5{
 	font-size: 40px;
 	color: #f7c60a;
 	text-align: center;
+	font-family: 'Gotham-Bold';
 	
 }
 
@@ -67,7 +68,7 @@ h6{
 }
 
 .dess{
-	margin-top: 100px;
+	margin-top: 75px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -176,7 +177,7 @@ section{
 #contact{
 	background: #f7c60a;
 	height: 100%;
-	margin-top: 4000px;
+	margin-top: 2500px;
 }
 h4{
 	color: #f7c60a;
