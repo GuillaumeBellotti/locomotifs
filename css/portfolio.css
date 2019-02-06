@@ -21,7 +21,7 @@ body{
 }
 
 .img1{
-	width: 250px;
+	width: 280px;
 	height: 50px;
 }
 /* ------- NavBar Style End ------- */
@@ -48,6 +48,8 @@ section{
 
 .fond{
 	margin-top: 100px;
+	padding-top: 130px;
+	padding-bottom: 200px;
 }
 
 .btn.btn-lg {
@@ -102,7 +104,7 @@ section{
 #contact{
 	background: #f7c60a;
 	height: 100%;
-	margin-top: 2300px;
+	margin-top: 4200px;
 }
 h4{
 	color: #f7c60a;

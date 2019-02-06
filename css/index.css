@@ -49,6 +49,7 @@ h3{
 	/* background-image: url(../img/interior_opacity.png); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	padding-top: 60px;
 	height: 850px;
 	text-align: center;
 }
@@ -57,6 +58,7 @@ h5{
 	font-size: 40px;
 	color: #f7c60a;
 	text-align: center;
+	
 }
 
 h6{
@@ -72,14 +74,16 @@ h6{
 
 .img-portfolio {
 	margin-top:20px;
-	width: 150px;
+	width: 160px;
 	display: block;
     margin-left: auto;
 	margin-right: auto;
 }
 
 .text-edito{
-	margin-top: 140px;
+	margin-top: 115px;
+	margin-left: 60px;
+	margin-right: 60px;
 	font-size: 18px;
 }
 
@@ -92,7 +96,7 @@ section{
 
 /* ------- Portfolio Style Start ------- */
 .rien{
-	height: auto;
+	height: 1000px;
 }
 
 .fond{
@@ -148,6 +152,23 @@ section{
 	justify-content: flex-end;
 	padding: 10px 100px;
 }
+#art{
+	padding-top: 50px;
+}
+
+#carré{
+	padding-top: 50px;
+}
+
+#graph{
+	padding-top: 50px;
+
+}
+
+#web{
+	padding-top: 50px;
+
+}
 /* ------- Portfolio Style End ------- */
 
 
@@ -155,7 +176,7 @@ section{
 #contact{
 	background: #f7c60a;
 	height: 100%;
-	margin-top: 3000px;
+	margin-top: 4000px;
 }
 h4{
 	color: #f7c60a;
